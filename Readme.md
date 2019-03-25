@@ -44,13 +44,13 @@ QPSK is a form of Phase Shift Keying in which two bits are modulated at once, se
     - Random Integer Generator size =  4
     - Phase offset = pi/2
 ## Schematic:
-![Schematic](QPSKSchematic.png)
+![Schematic](Graphs/QPSKSchematic.png)
 ## Before Noise Scatter plot:
-![BeforeNoiseQPSK](QPSKF1.png)
+![BeforeNoiseQPSK](Graphs/QPSKF1.png)
 ## After Noise Scatter plot:
-![AfterNoiseQPSK](QPSKF2.png)
+![AfterNoiseQPSK](Graphs/QPSKF2.png)
 ## Ber Graph
-![BerGraphQPSK](QPSKF3.png)
+![BerGraphQPSK](Graphs/QPSKF3.png)
 
 
 
@@ -62,13 +62,13 @@ QAM is a technique used to transmit two digital bit streams or two analog signal
     - M-ary number = 16
     - Normalization method = Average Power
 ## Schematic:
-![QAM16Schematic](QAM16Schematic.png)
+![QAM16Schematic](Graphs/QAM16Schematic.png)
 ## Before Noise Scatter plot:
-![BeforeNoiseQPSK](QAM16F1.png)
+![BeforeNoiseQPSK](Graphs/QAM16F1.png)
 ## After Noise Scatter plot:
-![AfterNoiseQPSK](QAM16F2.png)
+![AfterNoiseQPSK](Graphs/QAM16F2.png)
 ## Ber Graph
-![BerGraphQPSK](QAM16F3.png)
+![BerGraphQPSK](Graphs/QAM16F3.png)
 
 
 ## <a id="d"></a>QAM64
@@ -77,13 +77,13 @@ QAM is a technique used to transmit two digital bit streams or two analog signal
     - M-ary number = 64
     - Normalization method = Average Power
 ## Schematic:
-![QAM16Schematic](QAM64Schematic.png)
+![QAM16Schematic](Graphs/QAM64Schematic.png)
 ## Before Noise Scatter plot:
-![BeforeNoiseQPSK](QAM64F1.png)
+![BeforeNoiseQPSK](Graphs/QAM64F1.png)
 ## After Noise Scatter plot:
-![AfterNoiseQPSK](QAM64F2.png)
+![AfterNoiseQPSK](Graphs/QAM64F2.png)
 ## Ber Graph
-![BerGraphQPSK](QAM64F3.png)
+![BerGraphQPSK](Graphs/QAM64F3.png)
 
 ## <a id="e"></a> FSK
 ### Definition: 
@@ -92,10 +92,10 @@ FSK is a frequency modulation scheme in which digital information is transmitted
     - Random Integer Generator size =  8
 
 ## Schematic:
-![FSKSchematic](FSKSchematic.png)
+![FSKSchematic](Graphs/FSKSchematic.png)
 ## Before Noise Scatter plot:
-![BeforeNoiseFSK](FSKF1.png)
+![BeforeNoiseFSK](Graphs/FSKF1.png)
 ## After Noise Scatter plot:
-![AfterNoiseFSK](FSKF2.png)
+![AfterNoiseFSK](Graphs/FSKF2.png)
 ## Ber Graph
-![BerGraphFSK](FSKF3.png)
+![BerGraphFSK](Graphs/FSKF3.png)
