@@ -56,7 +56,7 @@ QPSK is a form of Phase Shift Keying in which two bits are modulated at once, se
 
 ## <a id="c"></a>QAM16
 ### Definition: 
-QAM is a technique used to transmit two digital bit streams or two analog signals by modulating or changing the amplitudes of two carrier waves so that they differ in phase by 90 degrees, a quarter of a cycle, hence the name quadrature. One signal is called the "I" signal and the other is the "Q" signal, which can be mat
+QAM is a technique used to transmit two digital bit streams or two analog signals by modulating or changing the amplitudes of two carrier waves so that they differ in phase by 90 degrees, a quarter of a cycle, hence the name quadrature. One signal is called the "I" signal and the other is the "Q" signal.
 ## Paramters:
     - Random Integer Generator size =  16
     - M-ary number = 16
