@@ -111,7 +111,7 @@ FSK is a frequency modulation scheme in which digital information is transmitted
 
 ## <a id="f"></a> BPSK
 ## Schematic:
-![BPSKRSchematic](Graphs/BPSKRSchema.png)
+![BPSKRSchematic](Graphs/BPSKRschema.png)
 ## Before Noise Scatter plot:
 ![BeforeNoiseBPSKR](Graphs/BPSKRF2.png)
 ## After Noise Scatter plot:
