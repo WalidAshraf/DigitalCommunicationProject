@@ -1,7 +1,9 @@
-# Digital Communciation Project
+# Digital Communication Project
 Simulate the performance of different modulation schemes,[BPSK](#a), [QPSK](#b), [FSK](#c), [QAM16](#d),[QAM64](#e) in an AWGN environment 
 
 
+# Raised Cosine Filter
+ [BPSK with Raised Cosine](#f), [QPSK with Raised Cosine](#g), [QAM16 with Raised Cosine](#h), [QAM64 with Raised Cosine](#j)
  # To reproduce the result:
  1. Open matlab
  2. Choose simulink from the toolbar 
@@ -99,3 +101,56 @@ FSK is a frequency modulation scheme in which digital information is transmitted
 ![AfterNoiseFSK](Graphs/FSKF2.png)
 ## Ber Graph
 ![BerGraphFSK](Graphs/FSKF3.png)
+
+
+# <a id="f"></a> Raised Cosine Filter
+
+## Parameters:
+    - Rolloff factor = 0.2
+    - Recieve delay = 2 
+
+## BPSK
+## Schematic:
+![BPSKRSchematic](Graphs/BPSKRSchema.png)
+## Before Noise Scatter plot:
+![BeforeNoiseBPSKR](Graphs/BPSKRF2.png)
+## After Noise Scatter plot:
+![AfterNoiseBPSKR](Graphs/BPSKRF1.png)
+## Ber Graph
+![BerGraphBPSKR](Graphs/BPSKRF3.png)
+
+
+## QPSK
+## Schematic:
+![QPSKRSchematic](Graphs/QPSKRSchema.png)
+## Before Noise Scatter plot:
+![BeforeNoiseQPSKR](Graphs/QPSKRF1.png)
+## After Noise Scatter plot:
+![AfterNoiseQPSKR](Graphs/QPSKRF2.png)
+## Ber Graph
+![BerGraphQPSKR](Graphs/QPSKRF3.png)
+
+
+## QAM16
+## Schematic:
+![QAM16RSchematic](Graphs/QAM16R.png)
+## Before Noise Scatter plot:
+![BeforeNoiseQAM16R](Graphs/QAM16RF1.png)
+## After Noise Scatter plot:
+![AfterNoiseQAM16R](Graphs/QAM16RF2.png)
+## Ber Graph
+![BerGraphQAM16R](Graphs/QAM16RF3.png)
+
+
+
+
+
+## QAM64
+## Schematic:
+![QAM64RSchematic](Graphs/QAM64RSchema.png)
+## Before Noise Scatter plot:
+![BeforeNoiseQAM64R](Graphs/QAM64RF1.png)
+## After Noise Scatter plot:
+![AfterNoiseQAM64R](Graphs/QAM64RF2.png)
+## Ber Graph
+![BerGraphQAM64R](Graphs/QAM64RF3.png)
