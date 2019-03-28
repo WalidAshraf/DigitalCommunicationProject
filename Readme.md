@@ -103,13 +103,13 @@ FSK is a frequency modulation scheme in which digital information is transmitted
 ![BerGraphFSK](Graphs/FSKF3.png)
 
 
-# <a id="f"></a> Raised Cosine Filter
+# Raised Cosine Filter
 
 ## Parameters:
     - Rolloff factor = 0.2
     - Recieve delay = 2 
 
-## BPSK
+## <a id="f"></a> BPSK
 ## Schematic:
 ![BPSKRSchematic](Graphs/BPSKRSchema.png)
 ## Before Noise Scatter plot:
@@ -120,7 +120,7 @@ FSK is a frequency modulation scheme in which digital information is transmitted
 ![BerGraphBPSKR](Graphs/BPSKRF3.png)
 
 
-## QPSK
+## <a id="g"></a> QPSK
 ## Schematic:
 ![QPSKRSchematic](Graphs/QPSKRSchema.png)
 ## Before Noise Scatter plot:
@@ -131,7 +131,7 @@ FSK is a frequency modulation scheme in which digital information is transmitted
 ![BerGraphQPSKR](Graphs/QPSKRF3.png)
 
 
-## QAM16
+## <a id="h"></a>QAM16
 ## Schematic:
 ![QAM16RSchematic](Graphs/QAM16R.png)
 ## Before Noise Scatter plot:
@@ -141,11 +141,7 @@ FSK is a frequency modulation scheme in which digital information is transmitted
 ## Ber Graph
 ![BerGraphQAM16R](Graphs/QAM16RF3.png)
 
-
-
-
-
-## QAM64
+## <a id="j"></a>QAM64
 ## Schematic:
 ![QAM64RSchematic](Graphs/QAM64RSchema.png)
 ## Before Noise Scatter plot:
